@@ -271,13 +271,13 @@ class SecurityTokensService {
 
 	getSigninMailBody() {
 		return `<div style="color: #202020; line-height: 1.5;">
-      Your email address {{email}} was just used to request<br />a sign in email to {{domain}} dashboard.
-      <div style="padding: 60px 0px;"><a href="{{link}}" style="background-color: #3f51b5; color: #ffffff; padding: 12px 26px; font-size: 18px; border-radius: 28px; text-decoration: none;">Click here to sign in</a></div>
-      <b>Request from</b>
+      Địa chỉ email {{email}} của bạn vừa được sử dụng để yêu cầu<br />đăng nhập vào trang {{domain}} Quản trị viên.
+      <div style="padding: 60px 0px;"><a href="{{link}}" style="background-color: #3f51b5; color: #ffffff; padding: 12px 26px; font-size: 18px; border-radius: 28px; text-decoration: none;">Nhấn vào đây để đăng nhập</a></div>
+      <b>Yêu cầu được gửi từ</b>
       <div style="color: #727272; padding: 0 0 20px 0;">{{requestFrom}}</div>
-      If this was not you, you can safely ignore this email.<br /><br />
+      Liên kết được sử dụng trong vòng 24h,  bạn có thể an toàn bỏ qua email này.<br /><br />
       Best,<br />
-      Cezerin Robot`;
+      Shopgovn Robot`;
 	}
 
 	async sendDashboardSigninUrl(req) {
