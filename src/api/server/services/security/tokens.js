@@ -275,7 +275,7 @@ class SecurityTokensService {
       <div style="padding: 60px 0px;"><a href="{{link}}" style="background-color: #3f51b5; color: #ffffff; padding: 12px 26px; font-size: 18px; border-radius: 28px; text-decoration: none;">Nhấn vào đây để đăng nhập</a></div>
       <b>Yêu cầu được gửi từ</b>
       <div style="color: #727272; padding: 0 0 20px 0;">{{requestFrom}}</div>
-      Liên kết được sử dụng trong vòng 24h,  bạn có thể an toàn bỏ qua email này.<br /><br />
+      Liên kết có hiệu lực trong 24h,  bạn có thể an toàn bỏ qua email này.<br /><br />
       Best,<br />
       Shopgovn Robot`;
 	}
