@@ -6,17 +6,17 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 export const Description = {
 	key: 'facebook-customer-chat',
-	name: 'Facebook Customer Chat',
+	name: 'Plugin Chat Facebook',
 	coverUrl: '/admin-assets/images/apps/messenger.png',
-	description: `<p>The Messenger Platform's customer chat plugin allows you to integrate your Messenger experience directly into your website. This allows your customers to interact with your business anytime with the same personalized, rich-media experience they get in Messenger.</p>
+	description: `<p>Với Plugin chat, bạn có thể tích hợp trực tiếp trải nghiệm Messenger vào trang web của mình. Nhờ đó, khách hàng có thể tương tác với doanh nghiệp của bạn bất cứ lúc nào bằng trải nghiệm dành riêng, đa phương tiện giống như trong Messenger.</p>
   <p><img src='/admin-assets/images/apps/facebook-customer-chat-plugin.png' /></p>
-  <p>The customer chat plugin automatically loads recent chat history between the person and your business, meaning recent interactions with your business on messenger.com, in the Messenger app, or in the customer chat plugin on your website will be visible. This helps create a single experience for your customers, and enables you to continue the conversation even after they have left your webpage. No need to capture their information to follow up, just use the same conversation in Messenger.</p>
-  <p>To access your Facebook's Page ID:</p>
+  <p>Giúp bạn trò chuyện trực tiếp với khách hàng. Cho phép bạn tiếp tục cuộc ngay cả khi họ đã rời khỏi trang web của bạn. Không cần nắm bắt thông tin của họ để theo dõi, chỉ cần sử dụng cuộc trò chuyện tương tự như trong Messenger.</p>
+  <p>Cách lấy ID trang Facebook của bạn:</p>
   <ol>
-    <li>Open your Facebook page.</li>
-    <li>Click the About tab.</li>
-    <li>Scroll down to the bottom of the Page Info section.</li>
-    <li>Next to Facebook Page ID, you can find your page ID.</li>
+    <li>Vào trang Facebook của bạn.</li>
+    <li>Nhấp vào Tab Giới Thiệu.</li>
+    <li>Cuộn xuống cuối phần THÔNG TIN THÊM.</li>
+    <li>Sao chép ID Trang của bạn và dán vào bên dưới.</li>
   </ol>`
 };
 
