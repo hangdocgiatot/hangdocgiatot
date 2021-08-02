@@ -8,20 +8,19 @@ export const Description = {
 	key: 'google-analytics',
 	name: 'Google Analytics',
 	coverUrl: '/admin-assets/images/apps/google_analytics.png',
-	description: `Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience.
-  <p>This App logs page views and Enhanced ecommerce events:</p>
+	description: `Google Analytics là một dịch vụ phân tích miễn phí của Google cho phép tạo ra các bảng thống kê chi tiết về cách mà khách hàng đã ghé thăm một trang web. cung cấp cho bạn các công cụ cần thiết để phân tích dữ liệu về doanh nghiệp của bạn ở cùng một nơi, nhờ đó, bạn có thể đưa ra quyết định sáng suốt hơn.
+  <p>Ứng dụng này ghi lại các lượt xem trang và các sự kiện Thương mại điện tử nâng cao gồm:</p>
   <ol>
-    <li>Page view</li>
-    <li>Product view</li>
-    <li>Search</li>
-    <li>Add to cart</li>
-    <li>Remove from cart</li>
-    <li>Begin checkout</li>
-    <li>Set shipping method</li>
-    <li>Set payment method</li>
-    <li>Purchase</li>
+    <li>Xem trang</li>
+    <li>Xem sản phẩm</li>
+    <li>Tìm kiếm</li>
+    <li>Thêm/Xoá sản phẩm khỏi giỏ hàng</li>
+    <li>Thanh toán</li>
+    <li>Chọn phương thức vận chuyển</li>
+    <li>Chọn phương thức thanh toán</li>
+    <li>Thanh toán</li>
   </ol>
-  <p>This App will add gtag.js to your site. The Global Site Tag (gtag.js) provides a framework for streamlined web page tagging – giving you better control while making implementation easier. Using gtag.js lets you benefit from the latest tracking features and integrations as they become available.</p>`
+  <p>Ứng dụng này sẽ thêm gtag.js vào trang web của bạn. Thẻ trang web toàn cầu (gtag.js) là một khuôn khổ gắn thẻ JavaScript và API được tổ chức hợp lý, cho phép bạn gửi dữ liệu sự kiện đến Google Analytics - cho phép bạn dễ dàng kiểm soát trang web tốt hơn. Sử dụng gtag.js để nhận các tính năng theo dõi và tích hợp mới nhất khi chúng có sẵn.</p>`
 };
 
 const GTAG_CODE = `<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -85,8 +84,7 @@ export class App extends React.Component {
 		return (
 			<div>
 				<div>
-					Enter your Google Analytics Tracking ID to track page views and other
-					events.
+					Nhập Tracking ID từ Google Analytics của bạn để theo dõi các lượt xem trang và các sự kiện khác.
 				</div>
 
 				<TextField
