@@ -6,9 +6,9 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 export const Description = {
 	key: 'jivosite',
-	name: 'JivoSite онлайн-консультант',
+	name: 'JivoSite Live Chat',
 	coverUrl: '/admin-assets/images/apps/jivosite.png',
-	description: `JivoSite – чат для сайта и инструмент для общения с клиентами в социальных сетях, мессенджерах и мобильных приложениях. Зарабатывайте больше, не упуская ни одного обращения.`
+	description: `JivoChat Là một công cụ để giao tiếp với khách hàng cho một trang web với khách hàng như gọi điện thoại và nhận tin nhắn từ mạng xã hội, tin nhắn tức thời, ứng dụng và e-mail, trò chuyện công ty và các khả năng CRM được tích hợp.`
 };
 
 export class App extends React.Component {
@@ -56,7 +56,7 @@ export class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>Введите код JivoSite</div>
+				<div>Nhập mã JivoSite từ (app.jivosite.com)</div>
 
 				<TextField
 					type="text"
@@ -65,7 +65,7 @@ export class App extends React.Component {
 					rows={10}
 					value={this.state.code}
 					onChange={this.handleChange}
-					floatingLabelText="Код чата JivoSite"
+					floatingLabelText="Nhập mã code JivoSite"
 					hintText="<!-- BEGIN JIVOSITE CODE {literal} -->..."
 				/>
 
