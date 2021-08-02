@@ -8,15 +8,15 @@ export const Description = {
 	key: 'facebook-sdk',
 	name: 'Facebook SDK',
 	coverUrl: '/admin-assets/images/apps/facebook.png',
-	description: `The Facebook SDK for JavaScript provides a rich set of client-side functionality that:
+	description: `SDK Facebook dành cho JavaScript cung cấp nhiều chức năng phía Client:
   <ol>
-    <li>Enables you to use the Like Button and other Social Plugins on your site.</li>
-    <li>Enables you to use Facebook Login to lower the barrier for people to sign up on your site.</li>
-    <li>Makes it easy to call into Facebook's Graph API.</li>
-    <li>Launch Dialogs that let people perform various actions like sharing stories.</li>
-    <li>Facilitates communication when you're building a game or an app tab on Facebook.</li>
+    <li>Cho phép bạn sử dụng Nút Thích và các Plugin xã hội khác trên trang web của bạn.</li>
+    <li>Cho phép bạn sử dụng Đăng nhập Facebook để giảm rào cản cho mọi người đăng ký trên trang web của bạn.</li>
+    <li>Giúp dễ dàng gọi vào Graph API. của Facebook.</li>
+    <li>Khởi chạy Hộp thoại cho phép mọi người thực hiện các hành động khác nhau như chia sẻ câu chuyện.</li>
+    <li>Tạo điều kiện giao tiếp khi bạn đang xây dựng một trò chơi hoặc một tab ứng dụng trên Facebook.</li>
   </ol>
-  <p>The Facebook SDK for JavaScript doesn't have any standalone files that need to be downloaded or installed, instead you simply need to include a short piece of regular JavaScript in your HTML that will asynchronously load the SDK into your pages. The async load means that it does not block loading other elements of your page.</p>`
+  <p>Facebook SDK cho JavaScript không có bất kỳ tệp độc lập nào cần được tải xuống hoặc cài đặt, thay vào đó, bạn chỉ cần bao gồm một đoạn mã ngắn của JavaScript thông thường trong HTML của mình để tải SDK vào các trang của bạn một cách không đồng bộ Asynchronous. Tải không đồng bộ có nghĩa là nó không chặn tải các phần tử khác trên trang của bạn.</p>`
 };
 
 const FACEBOOK_CODE = `<script>
@@ -96,7 +96,7 @@ export class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>You can find App ID using the Facebook App Dashboard.</div>
+				<div>Bạn có thể tìm thấy ID ứng dụng tại Trang tổng quan của Developers Facebook App.</div>
 
 				<TextField
 					type="text"
