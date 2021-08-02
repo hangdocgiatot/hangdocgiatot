@@ -6,10 +6,10 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 export const Description = {
 	key: 'site-verification',
-	name: 'Site Verification',
+	name: 'Xác minh trang web SEO',
 	coverUrl: '/admin-assets/images/apps/site_verification.png',
-	description: `Note that verifying your site with these services is not necessary in order for your site to be indexed by search engines. To use these advanced search engine tools and verify your site with a service, paste the HTML Tag code below.
-  <p>Supported verification services:</p>
+	description: `Xác minh trang web của bạn với các công cụ tìm kiếm(SEO) là một cách tuyệt vời để trang web của bạn được lập chỉ mục(index) nhanh chóng vào kết quả tìm kiếm của họ. Khi trang web của bạn được Index, điều này có nghĩa là trang web của bạn có cơ hội xuất hiện trong các kết quả tìm kiếm khi mọi người tìm kiếm các từ khóa nhất định.
+  <p>Các dịch vụ xác minh phổ biến:</p>
   <ol>
     <li><a target="_blank" href="https://www.google.com/webmasters/tools/" rel="external noopener noreferrer">Google Search Console</a></li>
     <li><a target="_blank" href="https://www.bing.com/webmaster/" rel="external noopener noreferrer">Bing Webmaster Center</a></li>
