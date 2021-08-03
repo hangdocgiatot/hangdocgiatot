@@ -42,7 +42,7 @@
   "section": "Product List",
   "key": "list_price_color",
   "type": "color",
-  "label": "Giá màu"
+  "label": "Màu giá sản phẩm"
 }, {
   "section": "Product List",
   "key": "list_price_size",
@@ -152,7 +152,7 @@
       "value": "right"
     },
     {
-      "label": "Dưới cùng",
+      "label": "Dưới",
       "value": "bottom"
     },
     {
@@ -164,7 +164,7 @@
   "section": "Product Details",
   "key": "disqus_shortname",
   "type": "string",
-  "label": "DISQUS shortname"
+  "label": "DISQUS tên người dùng"
 }, {
   "section": "Footer",
   "key": "footer_about",
@@ -270,7 +270,7 @@
     "label": "Url"
   }]
 }, {
-  "section": "Home",
+  "section": "Trang chủ",
   "key": "home_slider",
   "type": "array",
   "label": "Slider",
