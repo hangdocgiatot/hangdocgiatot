@@ -266,18 +266,18 @@ class SecurityTokensService {
 	}
 
 	getSigninMailSubject() {
-		return 'New sign-in from {{from}}';
+		return 'Yêu cầu Đăng Nhập mới từ {{from}}';
 	}
 
 	getSigninMailBody() {
 		return `<div style="color: #202020; line-height: 1.5;">
       Địa chỉ email {{email}} của bạn vừa được sử dụng để yêu cầu<br />đăng nhập vào trang {{domain}} Quản trị viên.
-      <div style="padding: 60px 0px;"><a href="{{link}}" style="background-color: #3f51b5; color: #ffffff; padding: 12px 26px; font-size: 18px; border-radius: 28px; text-decoration: none;">Nhấn vào đây để đăng nhập</a></div>
-      <b>Yêu cầu được gửi từ</b>
+      <div style="padding: 60px 0px;"><a href="{{link}}" style="background-color: #3f51b5; color: #ffffff; padding: 12px 26px; font-size: 18px; border-radius: 28px; text-decoration: none;">Liên kết đăng nhập</a></div>
+      <b>Yêu cầu được gửi từ thiết bị</b>
       <div style="color: #727272; padding: 0 0 20px 0;">{{requestFrom}}</div>
       Liên kết có hiệu lực trong 24h,  bạn có thể an toàn bỏ qua email này.<br /><br />
-      Best,<br />
-      Shopgovn Robot`;
+      <br />
+      Shopgovn`;
 	}
 
 	async sendDashboardSigninUrl(req) {
